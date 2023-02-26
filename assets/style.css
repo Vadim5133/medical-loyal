@@ -1,0 +1,729 @@
+body {
+  margin: 0 auto;
+  background: rgb(198, 195, 195);
+  font-family: "mont";
+}
+
+.content-container {
+  margin: 0 auto;
+  width: 1045px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  user-select: none;
+}
+
+.header__menu-left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.header__menu-right {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header__buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-secondary {
+  background-color: transparent;
+  border: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  width: max-content;
+  min-width: 140px;
+  height: 50px;
+  border: 1px solid #0e63f4;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.button-primary {
+  font-family: "mont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  background: #0e63f4;
+  border: 0;
+  border-radius: 5px;
+  width: max-content;
+  min-width: 140px;
+  height: 50px;
+}
+
+.button-primary i {
+  margin-left: 10px;
+}
+
+.hero-1 {
+  background: linear-gradient(
+      89.85deg,
+      #000000 0.13%,
+      #000000 0.14%,
+      rgba(0, 0, 0, 0) 99.56%
+    ),
+    url(/assets/img/hero-1-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.note {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #8fb9ff;
+}
+
+.hero-1__content {
+  width: 550px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.hero-1__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.hero-1__buttons-container {
+  padding-top: 35px;
+}
+
+.hero-1__buttons-container .button-primary {
+  margin-right: 12px;
+}
+
+.meet-our-experts {
+  background: #26335d;
+}
+
+.meet-our-experts__content {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.meet-our-experts__info {
+  width: 400px;
+  padding-top: 60px;
+}
+
+.meet-our-experts__red-line {
+  width: 94px;
+  height: 8px;
+  background: #e74040;
+}
+
+.button-action-transparent {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #8fb9ff;
+  background: none;
+  border: 0;
+}
+
+.button-action-transparent i {
+  color: #0e63f4;
+}
+
+.meet-our-experts__buttons-container {
+  padding-top: 35px;
+}
+
+.meet-our-experts__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.meet-our-experts__play-button {
+  background-color: #0e63f4;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.15s all ease-in;
+}
+
+.meet-our-experts__play-button:hover {
+  border-radius: 5px;
+  width: 120px;
+  background: #ffffff;
+}
+
+.meet-our-experts__play-button:hover i {
+  color: rgb(242, 5, 5);
+  font-size: 44px;
+}
+
+.meet-our-experts__play-button i {
+  color: #ffffff;
+  font-size: 24px;
+  transition: 0.15s all ease-in;
+}
+
+.meet-our-experts-img {
+  border-radius: 20px;
+}
+
+.logos {
+  background: #26335d;
+}
+
+.logos__content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.our-department {
+  background: #26335d;
+}
+
+.our-department__content {
+  padding-bottom: 112px;
+}
+
+.our-department__cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.our-department__card {
+  background: #ffffff;
+  padding-bottom: 35px;
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-top: 35px;
+  transition: 0.15s all ease-in;
+}
+
+.our-department__card:hover {
+  background: #0e63f4;
+}
+
+.our-department__card:hover div {
+  color: #ffffff;
+}
+
+.our-department__card:hover .our-department__red-line {
+  background: #ffffff;
+}
+
+.our-department__card:hover .our-department__card-img {
+  filter: brightness(0) invert(1);
+}
+
+.our-department__card-content {
+  max-width: 132px;
+}
+
+.our-department__card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.our-department__red-line {
+  width: 50px;
+  height: 2px;
+  background: #e74040;
+}
+
+.our-department__card-subtitle {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-top: 20px;
+}
+
+.our-department__card.card-2,
+.our-department__card.card-4 {
+  position: relative;
+  top: 40px;
+}
+
+.our-doctors {
+  background: #26335d;
+}
+
+.our-doctors__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-doctors__card.card-1 {
+  background: url(/assets/img/our-doctors/cancer-care.png);
+}
+
+.our-doctors__card.card-2 {
+  background: url(/assets/img/our-doctors/online-apointment.png);
+}
+
+.our-doctors__card.card-3 {
+  background: url(/assets/img/our-doctors/painless-procedures.png);
+}
+
+.our-doctors__card.card-4 {
+  background: url(/assets/img/our-doctors/quick-examination.png);
+}
+
+.our-doctors__card-top {
+  width: 238px;
+  height: 300px;
+}
+
+.our-doctors__card-sale {
+  background: #e74040;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  padding: 4px 10px;
+  color: #ffffff;
+  user-select: none;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.our-doctors__card-buttons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 70%;
+}
+
+.our-doctors__card-button {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: none;
+  font-size: 16px;
+  transition: 0.15s all ease-in;
+  opacity: 0.7;
+  color: black;
+}
+
+.our-doctors__card-button:hover {
+  color: #ffffff;
+  background: #000000;
+  opacity: 1;
+}
+
+.our-doctors__card-bottom {
+  background: white;
+  padding-left: 25px;
+  padding-bottom: 35px;
+}
+
+.our-doctors__card-bottom-content {
+  max-width: 182px;
+}
+
+.our-doctors__card-sales {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.our-doctors__card-note {
+  width: 50%;
+}
+
+.our-doctors__card-price {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  padding-top: 10px;
+}
+
+.our-doctors__old-price {
+  color: #bdbdbd;
+}
+
+.our-doctors__new-price {
+  color: #ff5670;
+}
+
+.our-doctors__learn-more {
+  border: 1px solid #0e63f4;
+  border-radius: 37px;
+  color: #0e63f4;
+  width: 141px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+i.star {
+  color: #ffce31;
+}
+
+.our-doctors__card-rating {
+  color: #ffffff;
+  background: #26335d;
+  position: relative;
+  top: 25px;
+  left: 70%;
+  width: 60px;
+  height: 24px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.our-doctors__card-subtitle {
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.our-doctors__card-title {
+  padding-top: 10px;
+}
+
+.our-doctors__card-sales {
+  padding-top: 10px;
+}
+
+.leading-medicine {
+  background: #26335d;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.leading-medicine__content {
+  display: flex;
+  background: url(/assets/img/Leading-medicine/leading-medicine-img.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+.leading-medicine__info {
+  width: 40%;
+  padding-top: 145px;
+  margin-left: auto;
+}
+
+.leading-medicine_red-line {
+  width: 94px;
+  height: 8px;
+  background: #e74040;
+}
+
+.leading-medicine__title {
+  padding-top: 35px;
+}
+
+.leading-medicine__subtitle {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.our-experts {
+  background: #26335d;
+}
+
+.our-experts__content {
+  padding-bottom: 160px;
+}
+
+.our-experts__info {
+  width: 60%;
+  padding-bottom: 100px;
+}
+
+.our-experts__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-experts__card {
+  width: 45%;
+  background: white;
+}
+
+.our-experts__card-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-experts__card-img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+.our-experts__card-img.card-1 {
+  background: url(/assets/img/our-experts/expert-1.svg);
+}
+
+.our-experts__card-img.card-2 {
+  background: url(/assets/img/our-experts/expert-2.svg);
+}
+
+.our-experts__card-subtitle {
+  padding-top: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  width: 70%;
+}
+
+.our-experts__card-rating {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.our-experts__card-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252b42;
+  padding-bottom: 5px;
+}
+
+.our-experts__card-job {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.join-us {
+  background: #26335d;
+}
+
+.join-us__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-us__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+}
+
+.join-us__title {
+  padding-top: 10px;
+}
+
+.join-us__subtitle {
+  padding-top: 10px;
+}
+
+.join-us__email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 160px;
+  width: 55%;
+}
+
+.join-us__your-email {
+  height: 50px;
+  width: 100%;
+  font-family: "mont";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #000000;
+  padding: 0 20px;
+  outline: none;
+  border: #ffffff;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.join-us__your-email::placeholder {
+  font-family: "mont";
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 28px;
+  color: #737373;
+  letter-spacing: 0.2px;
+}
+
+.join-us__email button {
+  border-radius: 0px 5px 5px 0px;
+  border: 2px solid #ffffff;
+  font-weight: 100;
+}
+
+.footer {
+  background: #26335d;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.footer__column-item {
+  padding-bottom: 10px;
+}
+
+.column-4 .item-1 {
+  background: url(/assets/img/Footer/list-marker-1.svg) no-repeat 0px 0px;
+  padding-left: 30px;
+  list-style-type: none;
+}
+
+.column-4 .item-2 {
+  background: url(/assets/img/Footer/list-marker-2.svg) no-repeat 0px 8px;
+  padding-left: 30px;
+  list-style-type: none;
+}
+
+.column-4 .item-3 {
+  background: url(/assets/img/Footer/list-marker-3.svg) no-repeat 0px -1px;
+  padding-left: 30px;
+  list-style-type: none;
+}
+
+.footer__column.column-4 {
+  width: 28%;
+}
+
+.footer__column li:first-child {
+  padding-bottom: 20px;
+  opacity: 0.7;
+}
+
+.footer__column li:not(:first-child) {
+  cursor: pointer;
+}
