@@ -1,29 +1,29 @@
 @font-face {
   font-family: "mont";
   font-weight: 100;
-  src: url(/assets/fonts/mont/Montserrat-Light.woff);
+  src: url(assets/fonts/mont/Montserrat-Light.woff);
 }
 
 @font-face {
   font-family: "mont";
   font-weight: 300;
-  src: url(/assets/fonts/mont/Montserrat-Regular.woff);
+  src: url(assets/fonts/mont/Montserrat-Regular.woff);
 }
 
 @font-face {
   font-family: "mont";
   font-weight: 500;
-  src: url(/assets/fonts/mont/Montserrat-SemiBold.woff);
+  src: url(assets/fonts/mont/Montserrat-SemiBold.woff);
 }
 
 @font-face {
   font-family: "mont";
   font-weight: 700;
-  src: url(/assets/fonts/mont/Montserrat-Bold.woff);
+  src: url(assets/fonts/mont/Montserrat-Bold.woff);
 }
 
 @font-face {
   font-family: "mont";
   font-weight: 900;
-  src: url(/assets/fonts/mont/Montserrat-Black.woff);
+  src: url(assets/fonts/mont/Montserrat-Black.woff);
 }
