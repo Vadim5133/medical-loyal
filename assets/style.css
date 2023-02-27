@@ -122,7 +122,7 @@ button:focus {
       #000000 0.14%,
       rgba(0, 0, 0, 0) 99.56%
     ),
-    url(assets/img/hero-1-bg.png);
+    url(./img/hero-1-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -353,19 +353,19 @@ button:focus {
 }
 
 .our-doctors__card.card-1 {
-  background: url(assets/img/our-doctors/cancer-care.png);
+  background: url(./img/our-doctors/cancer-care.png);
 }
 
 .our-doctors__card.card-2 {
-  background: url(assets/img/our-doctors/online-apointment.png);
+  background: url(./img/our-doctors/online-apointment.png);
 }
 
 .our-doctors__card.card-3 {
-  background: url(assets/img/our-doctors/painless-procedures.png);
+  background: url(./img/our-doctors/painless-procedures.png);
 }
 
 .our-doctors__card.card-4 {
-  background: url(assets/img/our-doctors/quick-examination.png);
+  background: url(./img/our-doctors/quick-examination.png);
 }
 
 .our-doctors__card-top {
@@ -503,7 +503,7 @@ i.star {
 
 .leading-medicine__content {
   display: flex;
-  background: url(assets/img/Leading-medicine/leading-medicine-img.svg);
+  background: url(./img/Leading-medicine/leading-medicine-img.svg);
   background-repeat: no-repeat;
   padding-bottom: 100px;
 }
@@ -568,11 +568,11 @@ i.star {
 }
 
 .our-experts__card-img.card-1 {
-  background: url(assets/img/our-experts/expert-1.svg);
+  background: url(./img/our-experts/expert-1.svg);
 }
 
 .our-experts__card-img.card-2 {
-  background: url(assets/img/our-experts/expert-2.svg);
+  background: url(./img/our-experts/expert-2.svg);
 }
 
 .our-experts__card-subtitle {
@@ -698,19 +698,19 @@ i.star {
 }
 
 .column-4 .item-1 {
-  background: url(assets/img/Footer/list-marker-1.svg) no-repeat 0px 0px;
+  background: url(./img/Footer/list-marker-1.svg) no-repeat 0px 0px;
   padding-left: 30px;
   list-style-type: none;
 }
 
 .column-4 .item-2 {
-  background: url(assets/img/Footer/list-marker-2.svg) no-repeat 0px 8px;
+  background: url(./img/Footer/list-marker-2.svg) no-repeat 0px 8px;
   padding-left: 30px;
   list-style-type: none;
 }
 
 .column-4 .item-3 {
-  background: url(assets/img/Footer/list-marker-3.svg) no-repeat 0px -1px;
+  background: url(./img/Footer/list-marker-3.svg) no-repeat 0px -1px;
   padding-left: 30px;
   list-style-type: none;
 }
